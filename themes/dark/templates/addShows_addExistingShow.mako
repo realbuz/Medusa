@@ -26,7 +26,7 @@ window.app = new Vue({
             defaultIndexer: ${app.INDEXER_DEFAULT},
 
             isLoading: false,
-            requestTimeout: 3 * 60 * 1000,
+            requestTimeout: 5 * 60 * 1000,
             errorMessage: '',
             rootDirs: [],
             dirList: [],
